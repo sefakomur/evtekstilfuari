@@ -1008,7 +1008,7 @@
 
 <script>
     const token = localStorage.getItem('authToken');
-
+    console.log(token);
     fetch('https://api.tuyap.online/api/auth/me', {
             method: 'post',
             headers: {
