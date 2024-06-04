@@ -1010,7 +1010,7 @@
     const token = localStorage.getItem('authToken');
 
     fetch('https://api.tuyap.online/api/auth/me', {
-            method: 'GET',
+            method: 'post',
             headers: {
                 'Authorization': `Bearer ${token}`
             }
